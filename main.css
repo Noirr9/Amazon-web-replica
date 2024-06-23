@@ -1,0 +1,285 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+.logo{
+    background-image: url(PngItem_12186.png);
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+    margin-top: 0px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+
+/* box2 */
+.nav-address{
+    padding: 0px 9px;
+    margin: 5px 2px 5px 0px;
+}
+
+.nav-add1{
+    color: #CCCCCC;
+    font-size: 12PX;
+    margin-left: 15px;
+}
+
+.nav-add2{
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.nav-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 62%;
+    background-color: rgb(79, 139, 139);
+    border: none;
+    border-radius: 4px;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+
+.search-in{
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    
+}
+
+.search-select{
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    padding-left: 5px;
+    background-color: #f3f3f3;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    background-color: #febd68;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 1.4rem;
+    color: #0F1111;
+}
+
+/* box4 */
+
+/* box5 */
+
+span{
+    font-size: 0.75rem;
+}
+
+.font1{
+    font-size: 0.9rem;
+}
+
+.weight{
+    font-weight: 700;
+}
+
+
+/* box6 */
+.cart{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.cart i{
+    font-size: 30px;
+}
+
+/* panel */
+.panel{
+    width: 100%;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deals{
+    align-items: end;
+}
+
+.panel-option{
+    width: 70%;
+    margin-left: 15px;
+}
+
+.panel-option a{
+    margin-left: 15px;
+}
+
+
+/* hero-section */
+.hero-section{
+    background-image: url(hero-image.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    width: 80%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bottom: 25px;
+    position: relative;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* content-section  */
+.item-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+   
+}
+
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.box-content{
+    padding: 20px 0px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box-image{
+    height: 310px;
+    background-size: cover;
+}
+
+.box-content h2{
+    margin-bottom: 10px;
+}
+
+.box-content p{
+    margin: 7px;
+}
+
+.foot-panel1{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.foot-panel2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.foot-panel3{
+    border-top: 0.5px solid white;
+    height: 70px;
+    width: 100%;
+    background-color: #222f3d;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    height: 80px;
+    background-color: #0F1111;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages{
+    padding-top: 20px;
+}
+
+.pages a{
+    margin-left: 10px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
